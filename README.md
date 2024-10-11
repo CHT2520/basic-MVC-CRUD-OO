@@ -2,7 +2,7 @@
 
 This example demonstrates a simple object oriented MVC application. It is based on the MVC example we looked at previously.
 
-- First, find the file _database/DbConnect.php_ and make changes to the connection settings so that they match your database.
+- First, find the file _database/DbConnect.php_ and make changes to the connection settings so they match your database.
 - Test the website. You should be able to view and add new films, the edit and delete functionality won't work.
 
 The website has been re-factored to use an object oriented MVC pattern. Take some time to look at the files in the web site.
@@ -45,7 +45,7 @@ protected function loadView($view,$data=[])
 }
 ```
 
-- This then loads the view file.-
+- This then loads the view file.
 
 > One bit of PHP code you probably haven't seen before is the `extract()` function. This function creates a variable for each key in an array e.g.
 >
